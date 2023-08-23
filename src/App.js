@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { Swiper, SwiperSlide } from 'swiper/react'
+import infos from './jsons/infos.json'
+import styles from './styles.css';
+import Slide from './components/Slide';
+import 'swiper/css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.container}>
+      <Swiper>
+        {infos.map(item => 
+          (
+            <SwiperSlide className={styles.swiper}>
+              <Slide titulo={item.titulo} subtitulo={item.subtitulo} descricao={item.descricao} img={item.img}/>
+            </SwiperSlide>
+          )
+        )}
+      </Swiper>
     </div>
   );
 }

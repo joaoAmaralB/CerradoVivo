@@ -1,0 +1,28 @@
+.header h1 {
+    font-family: 'Anton';
+    text-align: center;
+}
+
+.header h3 {
+    font-family: 'Roboto Condensed';
+    font-size: 400;
+    text-align: center;
+}
+
+.slide__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao {
+    font-family: 'Roboto Condensed';
+    font-size: 300;
+    text-align: center;
+}
+
+.imagem {
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    bottom: 0;
+}

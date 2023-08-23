@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "Lobo Guará",
+        "subtitulo": "O Espírito Selvagem do Cerrado",
+        "descricao": "Com sua pelagem avermelhada e pernas longas, o Lobo-Guará se destaca nas vastas paisagens do cerrado. Sua presença enigmática e elegante ganha vida à noite, evocando a imagem de um espírito selvagem que domina as planícies áridas.",
+        "img": "/assets/lobo-guara.webp"
+    },
+    {
+        "titulo": "Tamanduá-Bandeira",
+        "subtitulo": "Silencioso e Solitário: O Tamanduá-Bandeira do Cerrado",
+        "descricao": "O tamanduá-bandeira, com seu corpo alongado e língua extensível, é uma figura discreta nas noites do cerrado. Caçador noturno de formigas e cupins, sua pelagem única e hábitos solitários refletem a adaptação sutil a esse ecossistema. Na escuridão do cerrado, o tamanduá-bandeira personifica a tranquilidade misteriosa deste bioma.",
+        "img": "/assets/tamandua.jpg"
+    },
+    {
+        "titulo": "Onça Pintada",
+        "subtitulo": "Rainha das Selvas",
+        "descricao": "A majestosa Onça-Pintada reina como o maior felino das Américas. Seu pelo dourado e as manchas distintas conferem uma aparência de realeza selvagem. Ela personifica a feroz beleza dos predadores e a harmonia intrincada das florestas tropicais.",
+        "img": "/assets/onca.jpg"
+    },
+    {
+        "titulo": "Macaco-Prego",
+        "subtitulo": "Malícia e Inteligência nas Alturas",
+        "descricao": "O Macaco-Prego, de pelagem escura e expressivo rosto, é uma figura sociável e inteligente das florestas sul-americanas. Suas destrezas surpreendentes ao usar ferramentas e a forma como interage em grupos sociais revelam a complexidade de sua natureza intrigante.",
+        "img": "/assets/macaco-prego.jpg"
+    }
+]
