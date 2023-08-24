@@ -7,6 +7,10 @@
     font-family: 'Roboto Condensed';
     font-size: 400;
     text-align: center;
+    padding: .5rem;
+    border-bottom: 1px solid #e3e4d1;
+    width: 70%;
+    margin: 1rem auto;
 }
 
 .slide__container {
@@ -17,7 +21,8 @@
 .descricao {
     font-family: 'Roboto Condensed';
     font-size: 300;
-    text-align: center;
+    text-align: justify;
+    padding: 1rem;
 }
 
 .imagem {

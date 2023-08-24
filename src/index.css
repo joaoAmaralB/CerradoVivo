@@ -3,6 +3,8 @@ body {
   font-family: 'Tahoma', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #8DB255;
+  color: #e3e4d1;
 }
 
 code {
